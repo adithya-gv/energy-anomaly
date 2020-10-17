@@ -1,7 +1,4 @@
-from sklearn.cluster import KMeans
 import pandas as pd
-import numpy as np
-import matplotlib as plt
 
 def within(id, s):
     for i in id:
