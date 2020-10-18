@@ -11,7 +11,6 @@ import plotly.graph_objects as go
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
 
 df = np.loadtxt('https://raw.githubusercontent.com/adithya-gv/energy-anomaly/master/dataset/10112.dat', dtype=float)
 
