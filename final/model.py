@@ -54,7 +54,7 @@ min2 = np.amin(newData[:, 2])
 newData[:, 2] = newData[:, 2] - min2
 newData[:, 2] = newData[:, 2] / max2
 
-newX = np.transpose([newData[:, 1], newData[:, 2]])
+newX = np.transpose([newData[:, 0], newData[:, 2]])
 y_pred = tr.predict(newX)
 a_file = open("predictSet1.dat", "w")
 
