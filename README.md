@@ -2,4 +2,5 @@
 A project for hackGT 7 (16 October 2020).
 
 ### Description
-A K-Means Clustering anomaly detection model used to detect anomalies in energy usage in buildings in various settings.
+A Decision Tree anomaly detection model used to detect anomalies in energy usage in buildings in various settings.
+The project was hosted using PythonAnywhere: http://energyconsumptionanalysis.pythonanywhere.com/
