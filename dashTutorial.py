@@ -30,18 +30,6 @@ fig2.update_layout(title_text="Energy Consumption Across a Single Day")
 fig2.update_xaxes(title_text='Day')
 fig2.update_yaxes(title_text='Energy Consumption')
 
-#fig2 = px.line(df, x=df[:,1], y=df[:,2])
-
-#fig = px.scatter(df, x=df[:,1], y=df[:,2], color=df[:,2],
-                 #log_x=True, size_max=20)
-
-'''fig = px.scatter(df, x="gdp per capita", y="life expectancy",
-                 size="population", color="continent", hover_name="country",
-                 log_x=True, size_max=60)
-fig2 = px.scatter(df, x="gdp per capita", y="life expectancy",
-                 size="population", color="population", hover_name="country",
-                 log_x=True, size_max=60)'''
-
 app.layout = html.Div([
     html.H1(children='Energy Consumption Analysis',
     style = {
